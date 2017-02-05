@@ -33,6 +33,7 @@
           <ul class="nav navbar-nav">
             <li class="active"><a class="page-scroll" href="#about">About</a></li>
             <li><a class="page-scroll" href="#download">Download</a></li>
+            <li><a class="page-scroll" href="#qa">Q&amp;A</a></li>
             <li><a class="page-scroll" href="#license">License</a></li>
             <li><a class="page-scroll" href="#contact">Contact</a></li>
           </ul>
@@ -129,14 +130,28 @@
           <p>If not sure, download the installer instead of the portable version. It already incorporates Visual C++ Redistributable Package and installs it automatically if it is not present on your system.</p>
       </div>
 
-      <div id="contact">
+      <div id="qa">
+        <h3>Q&amp;A</h3>
+        <dl>
+          <dt>My antivirus software is suspicious of Klavier. Should I worry?</dt>
+          <dd>Suspicious antivirus/antimalware software is completely expectable. In order to work, Klavier has to record your keystrokes so it can modify letters written when the hotkey is pressed. This is basically the same approach many potentially dangerous keyloggers use, thus antivirus can do some checks when Klavier is run for the first time. Klavier will NEVER store anything you have written nor send it anywhere. <a href="https://github.com/Richdark/Klavier">Source code</a> is freely available to anyone. As long as you build it yourself or use official installer/executable provided above, you are fine.</dd>
+
+          <dt>I'm getting some missing DLLs errors. What can I do about it?</dt>
+          <dd>Klavier executables provided below were built using Microsoft's Visual Studio 2015, therefore they have some system dependencies. First of all, you shouldn't get this type of error if you use Windows 10, as all necessary libraries are already there. For Windows 8.1 and Windows 7, you should be fine as well if you have automatic updates turned on. If you don't, make sure you have <a href="https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows">Update for Universal C Runtime</a> installed. Moreover, you need <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">Visual C++ Redistributable for Visual Studio 2015</a> - Klavier installer provided above will automatically check and install it if it is missing on your system.</dd>
+
+          <dt>I have some other question. Can I contact you?</dt>
+          <dd>Of course! You can find <a href="#contact">contact section</a> at the bottom of this webpage.</dd>
+        </dl>
+      </div>
+
+      <div id="license">
         <h2>License</h2>
         <p>Klavier is open sourced which means I made the whole program source code freely available to anyone. If you are interested, you can find it with more licensing details and a list of used 3rd party content on a <a href="https://github.com/Richdark/Klavier">GitHub repository</a>.</p>
       </div>
 
       <div id="contact">
         <h2>Contact</h2>
-        <p>I've made Klavier for my own use and in my free time, since I hate switching between software keyboards. However, I'll be happy if it helps somebody else too. If you have any idea on how to improve Klavier or you have found any bug, don't hesitate to contact me at <a href="mailto:richard@filipcik.sk">richard@filipcik.sk</a> or create a issue on the <a href="https://github.com/Richdark/Klavier">GitHub repository</a>.</p>
+        <p>I've made Klavier for my own use and in my free time, since I hate switching between software keyboards. However, I'll be happy if it helps somebody else too. If you have any idea on how to improve Klavier or you have found any bug, don't hesitate to contact me at <a href="mailto:richard@filipcik.sk">richard@filipcik.sk</a> or create an issue on the <a href="https://github.com/Richdark/Klavier/issues">GitHub repository</a>.</p>
       </div>
 
     </div> <!-- /container -->
