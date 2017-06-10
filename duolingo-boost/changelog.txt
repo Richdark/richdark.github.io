@@ -1,0 +1,13 @@
+0.1.1 (2017-06-10)
+=================================================
+
+Bugfixes:
+
+  - Fixed bug when login popup was shown after each browser restart.
+  - Fixed popup link to the issue tracker.
+
+
+0.1.0 (2017-06-06)
+=================================================
+
+First Mozilla Firefox version.
