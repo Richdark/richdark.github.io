@@ -1,3 +1,12 @@
+0.1.2 (2017-08-08)
+=================================================
+
+Bugfixes:
+
+  - Fixed bug when lesson notes couldn't be printed occasionally.
+  - Most of the features now allowed for Chinese domain (duolingo.cn) as well.
+
+
 0.1.1 (2017-06-10)
 =================================================
 
