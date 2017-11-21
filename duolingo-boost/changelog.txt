@@ -1,3 +1,15 @@
+0.1.4 (2017-11-21)
+=================================================
+
+Updates:
+
+  - Made some preparations for Chrome release.
+
+Bugfixes:
+
+  - Fixed Japanese flag not displaying in courses list.
+
+
 0.1.3 (2017-10-10)
 =================================================
 
