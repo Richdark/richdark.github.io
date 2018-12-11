@@ -1,3 +1,17 @@
+0.3.0 (2018-12-11)
+=================================================
+
+News & Updates:
+
+  - Added option to sort courses list by name and level.
+  - Updated night mode.
+  - Several minor UX improvements.
+
+Bugfixes:
+
+  - Various fixes related to Duolingo changes over the last few months.
+
+
 0.2.2 (2018-02-06)
 =================================================
 

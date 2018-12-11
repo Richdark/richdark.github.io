@@ -116,7 +116,7 @@
         </div>
 
         <h3>Supported browsers</h3>
-        <p>Firefox version of Duolingo Boost is available at the moment with Chrome and Opera versions planned in the near future. I may port it to Microsoft Edge later as well, it is not my top priority right now though.</p>
+        <p>Firefox and Chrome versions of Duolingo Boost are available at the moment with Opera version planned in the near future. I may port it to Microsoft Edge later as well, it is not my top priority right now though.</p>
       </div>
 
       
@@ -136,14 +136,14 @@
               <tr>
                 <td>Mozilla Firefox</td>
                 <td><a href="https://addons.mozilla.org/sk/firefox/addon/duolingo-boost/">addons.mozilla.org</a></td>
-                <td>0.2.2</td>
-                <td>06/02/2018</td>
+                <td>0.3.0</td>
+                <td>11/12/2018</td>
               </tr>
               <tr>
                 <td>Google Chrome</td>
                 <td><a href="https://chrome.google.com/webstore/detail/duolingo-boost/mgecoicpalmpphlgfkdepgpofjcnggkn">chrome.google.com</a></td>
-                <td>0.2.2</td>
-                <td>06/02/2018</td>
+                <td>0.3.0</td>
+                <td>11/12/2018</td>
               </tr>
               <tr>
                 <td>Opera</td>
@@ -159,7 +159,20 @@
         <h3>Q&amp;A</h3>
         <dl>
           <dt>What does the little number on the notification icon mean?</dt>
-          <dd>The number shows how many XP are needed to achieve your daily goal. In case there is a question mark (?) instead of the number, it means that you need to log into the Duolingo account you are using Duolingo Boost with.</dd>
+          <dd>The number shows how many XP are needed to achieve your daily goal. In case there is a question mark (?) instead of the number, it means that you need to log in to the Duolingo account you are using Duolingo Boost with.</dd>
+          <dt>I cannot see number of XPs even when I logged in to my Duolingo account. Why?</dt>
+          <dd>This can have several reasons. First of all, make sure your Duolingo Boost user and username of the Duolingo account you have logged in match. If they do and you still see the question mark instead of a number, it may be that Duolingo Boost just doesn't have your current data yet. They are refreshed every 30 seconds, so probably you just need to wait a few more seconds. If neither of the above is true and you still cannot see the number, feel free to <a href="#contact">contact me</a>.</dd>
+          <dt>Why does Duolingo Boost ask for some particular permissions?</dt>
+          <dd>In order to work, Duolingo Boost needs access to some of the standard <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API#JavaScript_API_listing">JavaScript APIs</a>. This access is given by accepting permissions the extension asks for. Duolingo Boost makes use of several of the APIs. Since different browsers explain required permissions differently, I'm providing brief list of what functionality Duolingo Boost require and why.</dd>
+          <ul>
+            <li>Duolingo Boost requires access to <strong>duolingo.com</strong> and <strong>duolingo.cn</strong> (for Chinese version) domains to be able to read and modify Duolingo website source code. This is required by features like night mode which is done by applying custom CSS rules. It also needs it in conjuction with some other permissions listed below.</li>
+            <li>It needs permission to modify <strong>context menus</strong> to provide you option to print lesson notes from the website context menu.</li>
+            <li>Permission to read <strong>cookies</strong> (only for the <strong>duolingo.com</strong> domain) is required to read your current session information, e.g. your current daily goal.</li>
+            <li><strong>Notifications</strong> are used to display notifications about your current daily goal status and extension updates.</li>
+            <li><strong>Storage</strong> is used to locally store Duolingo Boost related data.</li>
+            <li><strong>Tabs</strong> permission is required to establish communication between Duolingo website tab(s) and Duolingo Boost. This is required by the print lesson notes feature. <em>Chromium-based browsers <a href="https://developer.chrome.com/extensions/permission_warnings#permissions_with_warnings">interpret</a> this permission somehow vaguely as permission to "read your browsing history", which is also the only reason why this permission is listed.</em></li>
+          </ul>
+          <dd>Note: Duolingo Boost will never send your data to any third party server. The only location Duolingo Boost communicates with is the official Duolingo website. All of the extension's data are stored locally on your machine.</dd>
         </dl>
       </div>
 
