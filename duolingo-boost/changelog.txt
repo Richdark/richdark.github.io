@@ -1,3 +1,15 @@
+0.3.1 (2018-12-13)
+=================================================
+
+News & Updates:
+
+  - Initial Opera release.
+
+Bugfixes:
+
+  - Fixed bug where note saying you are not logged in could be displayed even if you were.
+
+
 0.3.0 (2018-12-11)
 =================================================
 
