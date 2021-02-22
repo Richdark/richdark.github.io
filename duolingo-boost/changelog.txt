@@ -1,3 +1,14 @@
+0.4.0 (2021-02-21)
+=================================================
+
+News & Updates:
+
+  - Initial Microsoft Edge release.
+  - Updated night mode.
+  - Added flags for new courses. #12
+  - Added option to hide courses with no XP (enabled by default). #16 #19
+
+
 0.3.1 (2018-12-13)
 =================================================
 
