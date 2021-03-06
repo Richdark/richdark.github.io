@@ -1,3 +1,15 @@
+0.4.1 (2021-03-06)
+=================================================
+
+News & Updates:
+
+  - New update notification popup window.
+
+Bugfixes:
+
+  - Fix login issues in Firefox. #11 #15
+
+
 0.4.0 (2021-02-21)
 =================================================
 
